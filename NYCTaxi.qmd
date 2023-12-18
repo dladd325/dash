@@ -58,7 +58,7 @@ fig1.update_layout(
 )
 
 fig1.show()
-
+```
 
 ```{python}
 #| title: 요일,시간에 따른 평균이동거리 시각화   
@@ -127,7 +127,7 @@ fig3 = px.scatter_mapbox(
 
 # 속도 구간에 따라 승차와 하차 지점을 연결하는 선 추가
 for index, row in df_small.iterrows():
-    fig.add_trace(
+    fig3.add_trace(
         dict(
             type='scattermapbox',
             lat=[row['pickup_latitude'], row['dropoff_latitude']],
