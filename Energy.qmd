@@ -1,22 +1,6 @@
 ---
 title: "에너지사용량 자료 분석"
 author: "본인이름~"
-format: dashboard
-execute: 
-  enabled: true
-  cache: false
-  freeze: false
----
-
----
-title: "에너지사용량 자료 분석"
-author: "본인이름~"
-format: dashboard
-execute: 
-  enabled: true
-  cache: false
-  freeze: false
-  error: true
 ---
 
 ```{python}
